@@ -1,12 +1,14 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'lato' , sans-serif;
+    font-family: 'lato', sans-serif;
 }
+
 .text-primary {
-    color:#FD6E0A
+    color: #FD6E0A
 }
-.btn-primary{
+
+.btn-primary {
 
     border-radius: 5px;
     background: #FD6E0A;
@@ -17,46 +19,104 @@ body{
     padding: 15px 35px;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+}
+
 /* nav related styles: */
-nav{
+nav {
 
     display: flex;
-     justify-content: space-between; /*যতটুকু যায়গা দরকার নিয়ে নিবে। দুপাশে চলে যাবে। */
+    justify-content: space-between;
+    /*যতটুকু যায়গা দরকার নিয়ে নিবে। দুপাশে চলে যাবে। */
     align-items: center;
     margin: 0px 200px;
 }
-.nav-title{ 
-    color:#181818;
+
+.nav-title {
+    color: #181818;
     font-size: 45px;
     font-weight: 800;
- 
+
 }
+
 /*  nav এর মধ্যে ইমিডিয়েট ইউএল ডিসপ্লে ফ্লেক্স মানে একলাইনে আসবে। */
-nav > ul {
-    display:flex;
-     align-items: center; /*এটা সেন্টারে নেওয়ার জন্য করা হয়েছে। */
+nav>ul {
+    display: flex;
+    align-items: center;
+    /*এটা সেন্টারে নেওয়ার জন্য করা হয়েছে। */
 }
+
 /* ন্যাভ এর মধ্যে যত  li  আছে সব গুলো হবে। */
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
-   }
-    
-   nav a{
+}
+
+nav a {
     text-decoration: none;
     color: #474747;
-   }
-   /* header styeles */
-   .header{
+}
+
+/* header styeles */
+.header {
     background-color: #FFF8F3;
-   }
-   .banner {
-   padding: 30px 30px 30px 150px;
-   display: flex;
-   align-items: center;
-   }
-  .banner .prifile-pic{
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .prifile-pic {
     width: 500px;
     height: ;
 
-  }
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-bottom: 30px;
+}
+
+/* main section styles: */
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
