@@ -23,6 +23,7 @@ nav{
     display: flex;
      justify-content: space-between; /*যতটুকু যায়গা দরকার নিয়ে নিবে। দুপাশে চলে যাবে। */
     align-items: center;
+    margin: 0px 200px;
 }
 .nav-title{ 
     color:#181818;
@@ -45,3 +46,17 @@ nav li{
     text-decoration: none;
     color: #474747;
    }
+   /* header styeles */
+   .header{
+    background-color: #FFF8F3;
+   }
+   .banner {
+   padding: 30px 30px 30px 150px;
+   display: flex;
+   align-items: center;
+   }
+  .banner .prifile-pic{
+    width: 500px;
+    height: ;
+
+  }
